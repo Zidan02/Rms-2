@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .table-header, .table-data {
+            background-color: #EC6509; /* Orange background */
+            color: white; /* White text */
+            border: 2px solid black; /* Black border */
+        }
+        .edit-icon {
+            font-size: 1.2rem;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-3">
+        <table class="table text-center">
+            <thead>
+                <tr>
+                    <th class="table-header">Item Name</th>
+                    <th class="table-header">Unit Price</th>
+                    <th class="table-header">QTY</th>
+                    <th class="table-header">Dis Amt</th>
+                    <th class="table-header">Total</th>
+                    <th class="table-header">Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="table-data">Chicken Chola Batora</td>
+                    <td class="table-data">200.0</td>
+                    <td class="table-data">1.0</td>
+                    <td class="table-data">0.00</td>
+                    <td class="table-data">200.0</td>
+                    <td class="table-data">
+                        <button class="btn btn-light">
+                            <i class="bi bi-pencil-square edit-icon"></i>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="container container-custom mt-3">
+        <!-- Card section -->
+        <div class="row">
+            <div class="col-12 col-lg-2">
+                <div class="card text mb-3 rounded-3" style="background-color: #EC6509;">
+                    <a href="editItem.html" class="text-decoration-none text-dark">
+                        <div class="card-body">
+                            <p class="card-title fw-bold">Chicken Chola Batora</p>
+                            <p class="card-text fw-semibold">01 <span style="float: inline-end;">200 tk</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="col-12 col-lg-10">
+                <div class="row justify-content-center">
+                    <div class="card text text-dark mb-3" style="background-color: #EC6509; width: 100%;">
+                        <div class="card-header">
+                            <div id="date" class="carousel slide">
+                                <div class="carousel-inner text-center fs-6">
+                                    <div class="carousel-item active">
+                                        <p>July 2024</p>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <p>August 2024</p>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <p>September 2024</p>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#date"
+                                    data-bs-slide="prev">
+                                    <span><i class="fa-solid fa-caret-left" style="color: black;"></i></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#date"
+                                    data-bs-slide="next">
+                                    <span><i class="fa-solid fa-caret-right" style="color: black;"></i></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="invoice-box">
+                                <p class="fs-6 fw-semibold">Invoice Available: <span id="invoicesAvailable">209</span></p>
+                                <p class="card-text fs-6 fw-semibold">Invoices Done: <span id="invoicesDone">91</span></p>
+                                <p class="card-text fs-6 fw-semibold">Invoices Failed: <span id="invoicesFailed">0</span></p>
+                                <p class="card-text fs-6 fw-bold">Total Sale: <span id="totalSale">31466.66</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
