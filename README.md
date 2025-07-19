@@ -102,14 +102,9 @@ The system uses the following key tables:
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
----
-
 ## 📬 Contact
 
-For questions or support, please contact the project maintainer.
+For questions or support, reach out:
+
+* 📧 Email: [majedulhasan02@gmail.com](mailto:majedulhasan02@gmail.com)
 
