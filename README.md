@@ -14,7 +14,7 @@
 
 ## 📋 Project Overview
 
-This is a **Retail/Restaurant Management System (RMS)** built using PHP and MySQL/MariaDB. It supports multiple roles including **admin** and **branch-level users**. The system allows you to:
+This is a **Restaurant Management System (RMS)** built using PHP and MySQL. It supports multiple roles including **admin** and **branch-level users**. The system allows you to:
 
 * 💼 Manage products and inventory
 * 🛒 Process sales and generate receipts
@@ -45,7 +45,7 @@ This is a **Retail/Restaurant Management System (RMS)** built using PHP and MySQ
 | Technology    | Purpose                 |
 | ------------- | ----------------------- |
 | PHP           | Server-side scripting   |
-| MySQL/MariaDB | Database management     |
+| MySQL | Database management     |
 | Bootstrap 5.3 | Responsive UI framework |
 | HTML/CSS/JS   | Frontend functionality  |
 
@@ -104,8 +104,8 @@ The system uses the following key tables:
 
 ## 📄 License
 
-This project is provided **as-is** without warranty.
-You're free to modify and use it for personal or business purposes.
+This project is licensed under the [MIT License](LICENSE).
+
 
 ---
 
@@ -113,6 +113,3 @@ You're free to modify and use it for personal or business purposes.
 
 For questions or support, please contact the project maintainer.
 
----
-
-Would you like me to export this into a `README.md` file for direct use in your project folder?
