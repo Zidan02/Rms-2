@@ -1,7 +1,7 @@
 
 # 🍽️ Restaurant Management System (RMS)
 
-> A web-based system for managing products, sales, users, and reports in retail or restaurant environments.
+> A web-based system for managing menu item, sales, users, and reports in or restaurant environments.
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-7.4+-8892BF?style=flat-square&logo=php" alt="PHP Badge"/>
